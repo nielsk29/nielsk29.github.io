@@ -8,6 +8,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import International from "@/components/International";
 import Activities from "@/components/Activities";
+import Retake from "@/components/Retake";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { portfolioConfig } from "@/my-portfolio-info";
 
@@ -88,6 +89,7 @@ export default function Home() {
           description={config.activities?.description[language]}
         />
         <Skills skillCategories={skillCategories} />
+        <Retake text={config.retakeText?.[language] ?? ""} />
         <Contact
           email={config.personalInfo.email}
           phone={config.personalInfo.phone}

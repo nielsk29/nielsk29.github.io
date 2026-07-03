@@ -304,6 +304,15 @@ export const portfolioConfig = {
   },
 
   // ========================================
+  // RETAKE / SESSION 2
+  // Add the text you want displayed for your exam retake (session 2)
+  // Provide both English and French versions if desired.
+  retakeText: {
+    en: "",
+    fr: "",
+  },
+
+  // ========================================
   // INTERNATIONAL / TRAVEL & EXCHANGE
   // Mark past trips, exchanges and planned trips and what you gained / expect to gain
   // ========================================
